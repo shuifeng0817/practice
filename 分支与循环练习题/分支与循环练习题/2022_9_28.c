@@ -101,31 +101,226 @@
 //	printf("\n%d\n", count);
 //	return 0;
 //}
+//int main()
+//{
+//	int i = 0;
+//	int count = 0;
+//	for (i = 100; i <= 200; i++)
+//	{
+//		//判断i是否为素数
+//		//素数判断的规则
+//		//1.试除法
+//		//13 2-12
+//		// 产生2->i-1
+//		// 
+//		//
+//		int j = 0;
+//		for (j = 2; j < i; j++)
+//		{
+//			if (i % j == 0)
+//				break;
+//		}
+//		if (j == i)
+//		{
+//			count++;
+//			printf("%d ", i);
+//		}
+//	}
+//	printf("\n%d", count);
+//	return 0;
+//}
+#include<math.h>
+//int main()
+//{
+//	int i = 0;
+//	int count = 0;
+//	for (i = 100; i <= 200; i++)
+//	{
+//		判断i是否为素数
+//		素数判断的规则
+//		1.试除法
+//		13 2-12
+//		 产生2->i-1
+//		 
+//		
+//		int j = 0;
+//		for (j = 2; j < sqrt(i); j++)
+//		{
+//			if (i % j == 0)
+//				break;
+//		}
+//		if (j >sqrt (i))
+//		{
+//			count++;
+//			printf("%d ", i);
+//		}
+//	}
+//	printf("\n%d", count);
+//	return 0;
+//}
+//int main()
+//{
+//	int i = 0;
+//	int count = 0;
+//	for (i = 101; i <= 200; i+=2)
+//	{
+//		/*判断i是否为素数
+//			素数判断的规则
+//			1.试除法
+//			13 2 - 12
+//			产生2->i - 1*/
+//
+//
+//			int j = 0;
+//		for (j = 2; j < sqrt(i); j++)
+//		{
+//			if (i % j == 0)
+//				break;
+//		}
+//		if (j > sqrt(i))
+//		{
+//			count++;
+//			printf("%d ", i);
+//		}
+//	}
+//	printf("\n%d", count);
+//	return 0;
+//}
+//#include <stdio.h>
+//
+//int main()
+//
+//{
+//    int i, j, k, n = 0, x = 0, y = 50;
+//
+//
+//    printf("\n\n\n\n\n");
+//    printf("         lovelove                   lovelove\n");
+//    printf("       lovelovelove               lovelovelove\n");
+//    printf("     lovelovelovelove           lovelovelovelove\n");
+//    printf("   lovelovelovelovelove       lovelovelovelovelove\n");
+//    printf("  lovelovelovelovelovelo     lovelovelovelovelovelo\n");
+//    printf(" lovelovelovelovelovelove   lovelovelovelovelovelov\n");
+//    for (i = 0; i < 2; i++)
+//    {
+//        printf("lovelovelovelovelovelovelovelovelovelovelovelovelove\n");
+//
+//    }
+//
+//    for (i = 0; i < 5; i++)
+//    {
+//        y = 50;
+//        y = y - i * 2;
+//        n++;
+//        for (k = 0; k < n; k++)
+//        {
+//            printf(" ");
+//        }
+//        while (1)
+//        {
+//            if (x < y)
+//            {
+//                printf("l");
+//                y--;
+//            }
+//            else
+//                break;
+//            if (x < y)
+//            {
+//                printf("o");
+//                y--;
+//            }
+//            else
+//                break; if (x < y)
+//            {
+//                printf("v");
+//                y--;
+//            }
+//                else
+//                break; if (x < y)
+//            {
+//                printf("e");
+//                y--;
+//            }
+//                else
+//                break;
+//        }
+//        printf("\n");
+//    }
+//
+//
+//
+//    for (i = 0, n = 3; i < 10; i++)
+//    {
+//        y = 37;
+//        y = y - i * 4;
+//        n++;
+//        for (k = 0; k < n; k++)
+//        {
+//            printf("  ");
+//        }
+//        while (1)
+//        {
+//            if (x < y)
+//            {
+//                printf("l");
+//                y--;
+//            }
+//            else
+//                break;
+//            if (x < y)
+//            {
+//                printf("o");
+//                y--;
+//            }
+//            else
+//                break; if (x < y)
+//            {
+//                printf("v");
+//                y--;
+//            }
+//                else
+//                break; if (x < y)
+//            {
+//                printf("e");
+//                y--;
+//            }
+//                else
+//                break;
+//        }
+//        printf("\n");
+//    }
+//
+//    printf("\n\n\n\n\n\n\n\n\n\n\n\n");
+//    return 0;
+//}
+//int main()
+//{
+//	int i = 0;
+//	int count = 0;
+//	for (i = 1; i <= 100; i++)
+//	{
+//		if (i % 10 == 9)
+//			count++;
+//		if (i / 10 == 9)
+//		count++;
+//
+//	}
+//	printf("count=%d\n", count);
+//
+//
+//	return 0;
+//}
 int main()
 {
 	int i = 0;
-	int count = 0;
-	for (i = 100; i <= 200; i++)
+	double sum = 0;
+	for (i = 1; i <= 100; i ++ )
 	{
-		//判断i是否为素数
-		//素数判断的规则
-		//1.试除法
-		//13 2-12
-		// 产生2->i-1
-		// 
-		//
-		int j = 0;
-		for (j = 2; j < i; j++)
-		{
-			if (i % j == 0)
-				break;
-		}
-		if (j == i)
-		{
-			count++;
-			printf("%d ", i);
-		}
+		sum += 1.0 / i;//左右两端必须有一个是小数才能正确计算
 	}
-	printf("\n%d", count);
+	//1/1+1/2+1/3..
+	//1+0+0+0...=1
+	printf("%lf\n", sum);
 	return 0;
 }
