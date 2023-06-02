@@ -1,0 +1,5 @@
+﻿  test.c
+C:\Users\ASUS\Desktop\test3\test3\test.c(80,7): warning C4101: “ch”: 未引用的局部变量
+C:\Users\ASUS\Desktop\test3\test3\test.c(129,10): warning C4098: “show”:“void”函数返回值
+  LINK : 没有找到 C:\Users\ASUS\Desktop\test3\x64\Debug\test3.exe 或上一个增量链接没有生成它；正在执行完全链接
+  test3.vcxproj -> C:\Users\ASUS\Desktop\test3\x64\Debug\test3.exe
