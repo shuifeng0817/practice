@@ -1,0 +1,3 @@
+﻿  test8_18.c
+D:\2023\pointer\pointer\test8_18.c(32,8): warning C4133: “初始化”: 从“int *”到“char *”的类型不兼容
+  pointer.vcxproj -> D:\2023\pointer\Debug\pointer.exe
