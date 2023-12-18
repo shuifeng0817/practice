@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/langqiaobei.iml" filepath="$PROJECT_DIR$/langqiaobei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xishubiao/xishubiao.iml" filepath="$PROJECT_DIR$/xishubiao/xishubiao.iml" />
+    </modules>
+  </component>
+</project>

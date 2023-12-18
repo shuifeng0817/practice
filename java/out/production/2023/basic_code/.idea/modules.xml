@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic_code.iml" filepath="$PROJECT_DIR$/basic_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02-code/day02-code.iml" filepath="$PROJECT_DIR$/day02-code/day02-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_code/day03_code.iml" filepath="$PROJECT_DIR$/day03_code/day03_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day4_code/day04_code.iml" filepath="$PROJECT_DIR$/day4_code/day04_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05_code/day05_code.iml" filepath="$PROJECT_DIR$/day05_code/day05_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06_code/day06_code.iml" filepath="$PROJECT_DIR$/day06_code/day06_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07_code/day07_code.iml" filepath="$PROJECT_DIR$/day07_code/day07_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08/day08.iml" filepath="$PROJECT_DIR$/day08/day08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09_code/day09_code.iml" filepath="$PROJECT_DIR$/day09_code/day09_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dfxy-learn-java/dfxy-learn-java.iml" filepath="$PROJECT_DIR$/dfxy-learn-java/dfxy-learn-java.iml" />
+    </modules>
+  </component>
+</project>
